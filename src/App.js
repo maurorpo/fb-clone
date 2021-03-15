@@ -1,9 +1,17 @@
 import './App.css';
+import Header from './components/Header'
+import Sidebar from './components/Sidebar'
+import Feed from './components/Feed'
 
 function App() {
   return (
     <div className="App">
-      <h1>Facebook clone</h1>
+      <Header />
+      <div className="body">
+        <Sidebar />
+        <Feed />
+          {/*Widgets*/}
+      </div>
     </div>
   );
 }
