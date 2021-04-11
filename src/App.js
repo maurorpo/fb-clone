@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <div className="body">
+      <div className="app__body">
         <Sidebar />
         <Feed />
           {/*Widgets*/}
